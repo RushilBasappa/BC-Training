@@ -17,7 +17,7 @@
         <sup> Superscript </sup>
         </p>
         <p>2<sup>2</sup>=4</p>
-        <p>O<sub>2</sub>=&gtOxygen</p>
+        <p>O<sub>2</sub>=&gt Oxygen</p>
         <!--[if IE lte 7]> <p> Print this IE <= 7 <![endif]-->
     </body>
 </html>
