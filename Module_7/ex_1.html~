@@ -1,0 +1,11 @@
+<html>
+  <head>
+  </head>
+
+  <body>
+    <img src="image.jpg" width="200px" height="200px" alt="Preview not available"></p>
+    <audio src="loveyourself.mp3" controls></audio></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oyEuk8j8imI" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed"></iframe>
+  </body>
+</html>
