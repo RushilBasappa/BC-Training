@@ -1,0 +1,45 @@
+body{
+  background-color:#39506D;
+  margin:25px;
+}
+.mainpart{
+  background-image:url('../atlas.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius:6px;
+  height:100%;
+  width:100%;
+}
+.title{
+  color:white;
+  text-align:center;
+  text-transform:uppercase;
+  padding-top:10px;
+  font-size:18px
+}
+.common{
+  background-size: 100% 100%;
+  width:100px;
+  height:100px;
+  display:inline-block;
+  margin:16% 4% 0 4%;
+}
+.logos{
+  text-align:center;
+}
+.chrome{
+  background-image:url('../images/chrome.png');
+}
+.firefox{
+  background-image:url('../images/firefox.png');
+}
+.safari{
+  background-image:url('../images/safari.png');
+}
+.opera{
+  background-image:url('../images/opera.png');
+}
+.ie{
+  background-image:url('../images/ie.png');
+}

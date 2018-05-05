@@ -1,0 +1,25 @@
+p{
+  text-align:center;
+  color:red;
+}
+
+.outerbox{
+  border:solid #FFA500 2px;
+  background-color:#A5A5A5;
+  padding:15px 40px 60px;
+
+}
+
+.innerbox{
+  border:dashed #0000FF 2px;
+  background-color:white;
+  padding:15px 40px 60px;
+}
+
+.corebox{
+  border:dotted #008000 1px;
+  border-radius:10px;
+  border-width:2px;
+  background-color:#D5D5D5;
+  padding:10px 80px 120px
+}

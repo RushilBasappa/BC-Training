@@ -1,0 +1,87 @@
+html{
+  margin:0;
+  height:100%;
+}
+body{
+  margin:0;
+  background-color:#F4F5F7;
+  font-family:helvetica;
+}
+p{
+  text-align:center;
+  font-family:helvetica;
+  color:#777777;
+}
+a{
+  text-decoration: none;
+}
+
+.main{
+  margin: 50px 25%;
+  width:521.6px;
+  height:512.8px;
+  background-color:white;
+  border-top:2px solid #EA9A90;
+}
+.main>p:first-child{
+  margin-top:50px;
+  text-align:center;
+}
+.sign,.contact{
+  color:#49B8F1;
+  text-decoration:none;
+}
+.common{
+  width:70%;
+  height:80px;
+  border-bottom:2px solid #D6DADE;
+}
+.mail{
+    margin: 20px 78.25px 0 78.25px;
+}
+.pass{
+    margin: 0 78.25px 0 78.25px;
+}
+.mail>*{
+  display:inline block;
+  vertical-align:top;
+}
+.fa-envelope-o,.fa-lock{
+  color:#4ABFF2;
+  padding-right:18px;
+  border-right:3px solid #D6DADE;
+}
+.mail>div,.pass>div{
+  margin-left: 30px;
+}
+.pass i{
+  padding-left:6px;
+}
+.common>div,.common>input{
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 45px;
+}
+.mail>input,.pass>input{
+  border: none;
+  margin-left: 10px;
+  color:#777777;
+  font-size:17px;
+}
+.remem{
+  margin-top:30px;
+  text-align:center;
+  font-size:15px;
+}
+.signin{
+  border-radius:4px;
+  width:70%;
+  height:55px;
+  background-color:#00AAEF;
+  margin: 25px 78.25px 0 78.25px;
+}
+.signin p{
+  margin:0;
+  padding:17px 0;
+  color:white;
+}

@@ -1,0 +1,17 @@
+.orange{
+  background-color:#FFA500;
+}
+
+.blue{
+  background-color:#00008B;
+  display:inline;
+  color:white;
+}
+
+.green{
+  background-color:#008000;
+  width:49.8%;
+  height:50px;
+  display:inline-block;
+  color:white;
+}

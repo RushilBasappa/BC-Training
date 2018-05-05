@@ -1,0 +1,173 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+p,ul{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+a{
+  text-decoration: none;
+}
+
+
+.top{
+	height: 38.32px;
+	background-color: #0275D8;
+}
+.top p{
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding:11px 0;
+}
+
+.menu>p{
+  padding: 8px 0;
+  margin-left:70px;
+  font-size: 18px;
+  color: #481E77;
+}
+.menu>p,.menu>div{
+  display: inline-block;
+}
+.menu>div>ul{
+  display: inline-block;
+}
+.menu>div>ul:last-child{
+  position: absolute;
+  right: 37px;
+  top: 38px;
+}
+.menu>div li{
+  display: inline-block;
+  font-size: 14px;
+  padding: 9.5px 8px;
+  color: #754984;
+}
+
+nav ul{
+  margin-left: 35px;
+}
+nav li{
+  padding: 10px;
+}
+
+
+/*Menu Button*/
+input {
+  display: none;
+}
+label{
+  position: absolute;
+  top: 38.32px;
+  right: 0;
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+  color: #0087cc;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: all .15s ease;
+}
+input:checked + label {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #9799a7;
+}
+nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .15s ease;
+}
+input:checked ~ nav {
+  max-height: 500px;
+}
+nav>ul {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+li{
+  display: block;
+  list-style: none;
+}
+nav a{
+  color: #6D5287;
+  padding: 6px 12px;
+}
+
+/*------------------------------------------------------*/
+
+.main{
+	height: 415.34px;
+	background: #5B4182;
+}
+.pos{
+  position: relative;
+  top: 10%;
+  text-align: center;
+}
+.pos p{
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.logo{
+  height: 110px;
+  width: 110px;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  border: solid 0.1px white;
+  border-radius: 15px;
+}
+.logo p{
+  color: white;
+  font-size: 91px;
+  text-align: center;
+  padding: 0px 0;
+}
+.info p{
+  width: 80%;
+  margin-top: 25px;
+  font-size: 22px;
+}
+.bootLogo{
+  border: solid 1px white;
+  border-radius: 8px;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+.bootLogo p{
+  padding: 15px;
+}
+.pos>p:last-child{
+  margin-top: 15px;
+  font-size: 10px;
+  color: #8472B3;
+}
+
+
+.foot{
+  background-color: #FFFFFF;
+  height: 165px;
+}
+.foot>p{
+  position: relative;
+  top: 45%;
+  text-align: center;
+}
+.foot>p:first-child{
+  font-size: 28px;
+}
+.foot>p:first-child+p{
+  margin-top: 10px;
+  font-size: 12px;
+}

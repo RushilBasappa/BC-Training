@@ -1,0 +1,24 @@
+.menu>div ul{
+	visibility: hidden;
+}
+.menu>p{
+	margin-left: 30px
+}
+
+.imag{
+	visibility: visible;
+}
+.left>p:first-child{
+	padding: 10.68px 10px 10.68px 25px;
+}
+.foot>p{
+	position: relative;
+	top: 38%;
+}
+
+.info p{
+	font-size: 20px !important;
+}
+label{
+	display: block;
+}

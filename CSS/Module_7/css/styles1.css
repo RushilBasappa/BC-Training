@@ -1,0 +1,70 @@
+head,body{
+margin:0;
+height:100%;
+width:100%;
+overflow:hidden;
+}
+
+.names p,.date p{
+  display:inline-block;
+  width:33.3%;
+  margin:0;
+}
+.names{
+  padding:15px 15px 0 15px;;
+}
+.names > p{
+  color:#6B7080;
+  font-weight:bold;
+}
+.date{
+  padding:0 15px;
+}
+.date > p{
+  color:#ACACAB;
+
+}
+.rec{
+  text-align:center;
+}
+.paid{
+  text-align:right;
+}
+
+
+
+ul{
+  padding: 0;
+  position: relative;
+}
+li {
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  background: #5BBEE1;
+  margin: 0;
+  display: inline-block;
+  position: static;
+}
+.line:first-child::after{
+  content: '';
+  position:absolute;
+  top: 0.9em;
+  left: 0.9em;
+  right: 0.9em;
+  height: .2em;
+  background: #5BBEE1;
+}
+.line:first-child+li{
+  position: absolute;
+  left: calc(50% - 0.9em);
+}
+.line:first-child+li+li{
+  position: absolute;
+  left: calc(100% - 1.8em);
+}
+.bar{
+position: absolute;
+right: 15px;
+left: 15px;
+}

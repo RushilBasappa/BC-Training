@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Advanced Tags</title>
+    </head>
+
+    <body>
+        <time datetime="2016-01-08">Friday 8th January</time>
+        <mark>Text Marked </mark>
+        <hr>
+        <small> used for small print </small>
+        <s> no longer correct </s>
+        <u> unarticulated </u>
+        <i> alternate voice </i>
+        <b> attention </b>
+        <sub> Subscript </sub>
+        <sup> Superscript </sup>
+        </p>
+        <p>2<sup>2</sup>=4</p>
+        <p>O<sub>2</sub>=&gt Oxygen</p>
+        <!--[if IE lte 7]> <p> Print this IE <= 7 <![endif]-->
+    </body>
+</html>
